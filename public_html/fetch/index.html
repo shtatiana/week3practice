@@ -6,6 +6,7 @@
         <script>
             async function fetchvalue() {
                            let url = await fetch(document.getElementById("inp").value);
+                           document.getElementById("inp").value = '';
                            document.getElementById("inp").value = await url.text();
                            }
         </script>
