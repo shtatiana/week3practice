@@ -2,12 +2,12 @@
 <html>
     <body>
         <input type="text" id="inp">
-        <button id="bt" onclick="fetchfunc();"> Click here!</button>
+        <button id="bt" onclick="fetchvalue();"> Click here!</button>
         <script>
-            new fetchfunc (async => {
+            async function fetchvalue() {
                            let url = await fetch(document.getElementById("inp").value);
                            document.getElementById("inp").value = await url.text();
-                           })
+                           }
         </script>
     </body>
 </html>
