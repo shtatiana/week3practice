@@ -4,10 +4,11 @@
         <input type="text" id="inp">
         <button id="bt" onclick="fetchfunc();"> Click here!</button>
         <script>
-            new fetchfunc (async => {
-                           let url = await fetch(document.getElementById("inp").value);
-                           document.getElementById("inp").value = await url.text();
-                           })
+            async function fetchtext(){
+                let Response = await fetch(document.getElementById("inp").value);
+                document.getElementById("inp").value = '';
+                document.getElementById("inp").value = await Response.text();
+            }
         </script>
     </body>
 </html>
