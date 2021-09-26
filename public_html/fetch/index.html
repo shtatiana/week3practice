@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="text" id="inp">
+        <button id="bt" onclick="fetchfunc();"></script>button>
+        <script>
+            new fetchfunc (async => {
+                           let url = await fetch(document.getElementById("inp").value);
+                           document.getElementById("inp").value = await url.text();
+                           })
+        </script>
+    </body>
+</html>
