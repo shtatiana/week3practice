@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "/*" : {
+      "X-Author": "Tatiana",
+      "Access-Control-Allow-Origin": "*"
+    },
+    "/login/" : {
+      "X-Author": "Tatiana",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=utf-8"
+    },
+    "/promise/" : {
+      "X-Author": "Tatiana",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=utf-8"
+    },
+      "/fetch/" : {
+      "X-Author": "Tatiana",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/html; charset=utf-8"
+    }
+  }
+}
