@@ -16,7 +16,8 @@
     },
       "/fetch/" : {
       "X-Author": "Tatiana",
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/html; charset=UTF-8"
     }
   }
 }
